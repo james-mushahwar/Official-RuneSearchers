@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebdb4acb813776f4899862052a82a541, type: 3}
+  m_Name: Player 1
+  m_EditorClassIdentifier: 
+  playerSpawns: {fileID: 11400000, guid: c06d5cfe1e647f04fa61ade812e82520, type: 2}
+  playerCards: {fileID: 0}
+  playerStats: {fileID: 11400000, guid: 6535d259d4f0a704c860400a5949c830, type: 2}
+  playerSettings: {fileID: 11400000, guid: 1786804e7f3aa40449d4e76a9f5f12b7, type: 2}
+  playerGUI: {fileID: 11400000, guid: 527704eb51bdbe84bafee733ca590e5c, type: 2}
+  spawnHandler: {fileID: 11400000, guid: e2289a969e7effa47bcdc4cb2a80a228, type: 2}

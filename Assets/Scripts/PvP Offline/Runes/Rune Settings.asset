@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c47c29342a5cd74d82f4d1c7a00b898, type: 3}
+  m_Name: Rune Settings
+  m_EditorClassIdentifier: 
+  maxRunesInPlay: 6
+  smallRuneStats: {x: 2, y: 1}
+  mediumRuneStats: {x: 3, y: 2}
+  largeRuneStats: {x: 4, y: 3}
+  redRuneColour: {r: 0.8679245, g: 0.29764038, b: 0.25792095, a: 0}
+  yellowRuneColour: {r: 0.9528302, g: 0.82066464, b: 0.3460751, a: 0}
+  blueRuneColour: {r: 0.37824848, g: 0.5944024, b: 0.9433962, a: 0}
+  runeHoverSpeed: 0

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 46958d952832c18448c4818bb4e0d9b6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - gameSettings: {fileID: 11400000, guid: c9bc91f7343c77d479d0fca423c1ed96, type: 2}
+  - StartBattle: {fileID: 11400000, guid: d1be2b43b11bffe4185f4fb9b41b87c7, type: 2}
+  - ChangeTurn: {fileID: 11400000, guid: 1e280197b4c7f7a4d9dc28a5f78cc86a, type: 2}
+  - EndBattle: {fileID: 11400000, guid: 21e0a8fe81a1cd54d858d6a1f8084578, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73126fc7f2cc9664f854ca7aaff88718, type: 3}
+  m_Name: Stats_Bloomer
+  m_EditorClassIdentifier: 
+  unitName: Bloomer the Boomer
+  unitType: 0
+  runeClass: 0
+  summonCost: 3
+  attackPoints: 45
+  healthPoints: 140
+  movementRange: 2
+  classStatBuff: 25
+  unitAbility:
+    isActive: 0
+    previouslyActivated: 0

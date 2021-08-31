@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7c5d2055f0751468f0e4a40d5e449f, type: 3}
+  m_Name: Player 1 Spawn Handler
+  m_EditorClassIdentifier: 
+  inSpawnMode: 0
+  spawner: {fileID: 11400000, guid: e6ee10b716c4fc949a496b6dbfe1f0e4, type: 2}
+  player: {fileID: 11400000, guid: 1962fbb62d9a8f74c93563b69bbd0a87, type: 2}
+  currentSelectedUnitSpawn: {fileID: 0}
+  Level1RedIsEnabled: {fileID: 11400000, guid: 1cdf70ffe84d62142923b61e6970b9b8, type: 2}
+  Level2RedIsEnabled: {fileID: 11400000, guid: 6f0220be6f3eca24db0af96e06ae18b6, type: 2}
+  Level3RedIsEnabled: {fileID: 11400000, guid: 458e196672e194947bee0bac0776d539, type: 2}
+  Level1YellowIsEnabled: {fileID: 11400000, guid: 4a91a83f8d2c3c04aace8df6c34bfcf8,
+    type: 2}
+  Level2YellowIsEnabled: {fileID: 11400000, guid: 4052a46397300dd4eb980316c52e25ab,
+    type: 2}
+  Level3YellowIsEnabled: {fileID: 11400000, guid: 2d873de76565ca148b4018d627c7d0d3,
+    type: 2}
+  Level1BlueIsEnabled: {fileID: 11400000, guid: 0a4712f676f10b44984511a710696abf,
+    type: 2}
+  Level2BlueIsEnabled: {fileID: 11400000, guid: 3a0efe1834c89ad4cb95e37672916d09,
+    type: 2}
+  Level3BlueIsEnabled: {fileID: 11400000, guid: 0ee5beb02522a3645bf8ab2891686118,
+    type: 2}
+  Level1RedIsDisabled: {fileID: 11400000, guid: ce02563b0e8868d4c83757e99a3e9d9f,
+    type: 2}
+  Level2RedIsDisabled: {fileID: 11400000, guid: 86e1795de026c6543a4a04a91be0d580,
+    type: 2}
+  Level3RedIsDisabled: {fileID: 11400000, guid: 86543f9c41cf0b9408ded14b0bfd84dc,
+    type: 2}
+  Level1YellowIsDisabled: {fileID: 11400000, guid: e60d6ce42bb4bb64c8491ca9028df340,
+    type: 2}
+  Level2YellowIsDisabled: {fileID: 11400000, guid: 8041d64d1aa4c3444a5acfcd031dbafb,
+    type: 2}
+  Level3YellowIsDisabled: {fileID: 11400000, guid: cd4f39ea702a3cd4b8775466ef20875b,
+    type: 2}
+  Level1BlueIsDisabled: {fileID: 11400000, guid: fc74483d69a1b1746a279a362b9c70ec,
+    type: 2}
+  Level2BlueIsDisabled: {fileID: 11400000, guid: 1547f8b6a3bf99841bf3a7d12f532b52,
+    type: 2}
+  Level3BlueIsDisabled: {fileID: 11400000, guid: 9f411daed5e260a44b92ebf605e0f427,
+    type: 2}
+  UnitSelectedToSpawn: {fileID: 11400000, guid: 7bae211a4dae8614bad6638bd34d8b02,
+    type: 2}

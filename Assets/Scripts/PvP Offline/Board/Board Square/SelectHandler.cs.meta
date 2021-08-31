@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: eacf66de251e9e94a9f539336ab4515d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - currentUnitSelected: {instanceID: 0}
+  - currentBoardSquare: {instanceID: 0}
+  - SelectGridSquareEvent: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
