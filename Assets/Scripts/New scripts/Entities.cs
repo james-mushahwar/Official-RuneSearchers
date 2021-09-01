@@ -5,11 +5,13 @@ using Global;
 
 public class Card
 {
+    #region Variables
     public short id;
     public string name;
     public GlobalEnums.RuneType runeType;
     public GlobalEnums.RaceType raceType;
     public string description;
+    #endregion
 }
 
 public interface IDestructable

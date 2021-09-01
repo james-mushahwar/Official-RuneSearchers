@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Global;
 
 public abstract class Searcher : Card, IDestructable, IMoveable, ICombatant, ITrader, IExtract
 {
+    #region Variables
     // IDestructable
     public int hitPoints { get; set; }
     public int maxHitPoints { get; set; }
@@ -23,9 +25,14 @@ public abstract class Searcher : Card, IDestructable, IMoveable, ICombatant, ITr
     // IExtract
     public bool extracted { get; set; }
     public bool extracting { get; set; }
+    #endregion
+
+    #region Functions
+    // IExtract
     public virtual bool CanExtract() { return false; }
     public virtual void StartExtract() { }
     public virtual void CancelExtract() { }
+    #endregion
 }
 
 public interface IExtract
