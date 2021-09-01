@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Global;
 
 public class Card
 {
-    public string id;
+    public short id;
     public string name;
     public GlobalEnums.RuneType runeType;
     public GlobalEnums.RaceType raceType;
@@ -34,13 +35,16 @@ public interface ICombatant
 
 public interface IPlayable
 {
-    int cost { get; set; }
+    int runeCost { get; set; }
+    int energyCost { get; set; }
     int allowedPlays { get; set; }
 }
 
-public interface IRuneEnergy
+public interface ITrader
 {
-    int runes { get; set; }
-    int energy { get; set; }
+    IRuneEnergy runeEnergy { get; set; }
+    bool sent { get; set; }
+    bool received { get; set; }
 }
+
 

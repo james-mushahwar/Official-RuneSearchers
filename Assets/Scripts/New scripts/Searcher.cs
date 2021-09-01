@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Minion : Card, IDestructable, IMoveable, ICombatant, IPlayable, ITrader
+public abstract class Searcher : Card, IDestructable, IMoveable, ICombatant, ITrader, IExtract
 {
     // IDestructable
     public int hitPoints { get; set; }
@@ -16,14 +16,23 @@ public class Minion : Card, IDestructable, IMoveable, ICombatant, IPlayable, ITr
     public int remainingAttacks { get; set; }
     public int allowedAttacks { get; set; }
     public int attackRange { get; set; }
-    // IPlayable
-    public int runeCost { get; set; }
-    public int energyCost { get; set; }
-    public int allowedPlays { get; set; }
     // ITrader
     public IRuneEnergy runeEnergy { get; set; }
     public bool sent { get; set; }
     public bool received { get; set; }
+    // IExtract
+    public bool extracted { get; set; }
+    public bool extracting { get; set; }
+    public virtual bool CanExtract() { return false; }
+    public virtual void StartExtract() { }
+    public virtual void CancelExtract() { }
+}
 
-    public TypeAbility typeAbility;
+public interface IExtract
+{
+    bool extracted { get; set; }
+    bool extracting { get; set; }
+    bool CanExtract();
+    void StartExtract();
+    void CancelExtract();
 }
