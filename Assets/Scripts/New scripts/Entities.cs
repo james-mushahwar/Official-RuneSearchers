@@ -18,6 +18,12 @@ public interface IDestructable
 {
     int hitPoints { get; set; }
     int maxHitPoints { get; set; }
+    ITakeDamage damage { get; set; }
+}
+
+public interface ITakeDamage
+{
+    void TakeDamage(IDestructable d, int damage);
 }
 
 public interface IMoveable

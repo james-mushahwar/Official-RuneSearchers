@@ -9,6 +9,7 @@ public class Minion : Card, IDestructable, IMoveable, ICombatant, IPlayable, ITr
     // IDestructable
     public int hitPoints { get; set; }
     public int maxHitPoints { get; set; }
+    public ITakeDamage damage { get; set; }
     // IMoveable
     public int moveRange { get; set; }
     public int remainingMoves { get; set; }

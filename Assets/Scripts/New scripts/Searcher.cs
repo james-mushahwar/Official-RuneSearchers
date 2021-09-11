@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using Global;
 
-public abstract class Searcher : Card, IDestructable, IMoveable, ICombatant, ITrader, IExtract
+public class Searcher : Card, IDestructable, IMoveable, ICombatant, ITrader, IExtract
 {
     #region Variables
     // IDestructable
     public int hitPoints { get; set; }
     public int maxHitPoints { get; set; }
+    public ITakeDamage damage { get; set; }
     // IMoveable
     public int moveRange { get; set; }
     public int remainingMoves { get; set; }
